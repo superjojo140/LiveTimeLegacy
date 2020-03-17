@@ -1,0 +1,31 @@
+{
+  "name": "livetime",
+  "version": "1.0.0",
+  "description": "Organize your time for various projects",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superjojo140/liveTime.git"
+  },
+  "author": "superjojo140",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superjojo140/liveTime/issues"
+  },
+  "homepage": "https://github.com/superjojo140/liveTime#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.1"
+  }
+}
