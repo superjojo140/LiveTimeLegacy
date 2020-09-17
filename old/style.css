@@ -1,0 +1,283 @@
+
+input,textarea {
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 110%;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+a{
+    text-shadow: none;
+}
+
+form {
+    border-radius: 3px;
+    margin: 10px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+	
+}
+
+hr{
+    margin: 20px;
+}
+
+.btn {
+    background: white;
+    font-size: 110%;
+    padding: 7px;
+    color: #585858;
+    border-radius: 1px;
+    cursor: pointer;
+    text-align: center;
+    width: 50%; 
+    background: #ffffff;
+    margin: 10px;
+}
+
+.btn:hover{
+    background: #b7bebb;
+    color: white;
+}
+
+label {
+    color: #848484;
+}
+
+#newTitle {
+    font-weight: bold;
+    width: 100%;
+}
+
+#newDescription {
+    font-size: 95%;
+    width: 100%;
+}
+
+listItem {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    margin: 13px;
+	position: relative;
+	display: flex;
+	background: white;   
+}
+
+.activeListItem{
+    background: rgba(128, 221, 121, 0.41);
+    border-color: rgba(6, 92, 6, 0.26);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.noteListItem{
+    background: rgba(230, 235, 92, 0.65);
+    border-color: rgba(92, 85, 6, 0.26);
+    border-width: 1px;
+    border-style: solid;
+}
+
+itemTitle {
+    font-weight: bold;
+	flex: 1;
+    
+}
+
+
+itemDescription {
+    font-size: 90%;
+	flex: 2;
+    
+}
+
+leftBox{
+	flex:5;
+	display: flex;
+	flex-direction: column;
+}
+
+middleBox{
+	flex:2;
+	display: flex;
+	flex-direction: column;
+}
+
+rightBox{
+	flex:1;
+}
+
+delete{
+	float: right;
+	background: #de0505;
+	border-radius: 0% 0% 0% 0%;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	padding: 1px;
+	color: azure;
+	cursor:pointer;
+}
+
+content {
+	display: flex;
+	flex-direction: row;
+	background:#f5f5f5;
+    margin-top: 7%; 
+}
+
+sidebar {
+	flex: 1;
+	background: #29332c;
+}
+
+main {
+	flex:4;
+    padding-left: 10px;
+}
+
+.projectActive {
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	background: #f5f5f5;
+	width: 100%;
+	display: block;
+    color: #5f695f;
+	/*border-radius: 0 50px 50px 0;*/
+}
+
+project {
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	background: #5f695f;
+	width: 100%;
+	display: block;
+	border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    color: #f5f5f5;
+}
+
+project:hover{
+    background: #c9c6c6;
+}
+
+
+sideTopBar{
+    background: #a3a3a3;
+    display: block;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#addProjectForm{
+    display:flex;
+    max-width: 90%;
+    
+}
+
+#newProjectName{
+    margin: 0px;
+    margin-top: 5px;
+    border-radius: 2px;
+    flex: 4;
+    max-width: 80%;
+    
+}
+
+#sendNewProject{
+    flex: 1;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 0px;
+    color: #c9c6c6;
+}
+
+addProject{
+    display: none;
+}
+
+timeDiff{
+    background: rgba(127, 199, 244, 0.73);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    color: aliceblue;
+    border-width: 0px;
+    height: 60%;
+    margin: auto;
+}
+
+.activeTimeDiff{
+    cursor: pointer;
+}
+
+.leftIcon{
+    margin-right:10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: gray;
+    padding-right: 8px;
+    cursor: default;
+}
+
+
+/* google icon font*/
+icon { 
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+  vertical-align: middle;
+  
+
+
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+inputArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+leftInputArea {
+    display: block;
+    width: 50%;
+}
+
+rightInputArea {
+    display: block;
+}
+
+bubbleBox {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 80px;
+    background-color: green;
+    bottom: 5px;
+}
